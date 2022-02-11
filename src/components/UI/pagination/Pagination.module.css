@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.paginationPage {
+  width: 35px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid teal;
+  color: teal;
+  cursor: pointer;
+}
+
+.paginationPageCurrent {
+  width: 35px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid teal;
+  color: white;
+  cursor: pointer;
+  background: teal;
+}

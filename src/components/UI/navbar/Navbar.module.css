@@ -1,0 +1,44 @@
+.navbar {
+  height: 50px;
+  width: 100vw;
+  background: teal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__link {
+  position: relative;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 15px;
+  transition: all 0.2s linear;
+}
+
+.navbar__link:after {
+  position: absolute;
+  left: 50%;
+  content: '';    
+  height: 2px;    
+  background: white;
+  transition: all 0.3s linear;
+  width: 0;
+  bottom: -2px;  
+}
+
+.navbar__link:hover:after {
+  width: 100%;
+  margin-left: -50%;                
+}
+
+.navbar__user {
+
+}
